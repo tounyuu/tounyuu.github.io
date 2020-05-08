@@ -1,0 +1,165 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+
+header {
+  background-color: rgba(34,49,52,0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  padding: 20px 0 20px;
+  float: left;
+}
+
+.login {
+  color: white;
+  background-color: rgba(255,255,255,0.3);
+  float: right;
+  padding: 0 25px 0 25px;
+  line-height: 65px;
+  display: block;
+}
+
+.top-wrapper {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 180px 0 70px 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  letter-spacing: 5px;
+  font-size: 45px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.top-wrapper p {
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.btn {
+  margin: 15px 0;
+  opacity: 0.8;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.Facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.lesson-wrapper {
+  height: 580px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.heading {
+  padding: 80px 0 50px;
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  font-size: 13px;
+  width: 80%;
+  display: inline-block;
+  color: #b3aeb5;
+  padding-top:15px;
+}
+
+.message-wrapper {
+  text-align: center;
+}
+
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  box-shadow: 0px 7px #1a7940;
+  margin: 0 0 80px;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer {
+  border-top: 1px solid #eee;
+}
+
+footer img {
+  margin-top: 30px;
+  width: 124px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
